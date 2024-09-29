@@ -63,3 +63,64 @@ Increment the value of variable `age` by 1.
 >       age -= 1;
 
 Decrement the value of variable `age` by 1.
+
+# Functions
+
+## Named functions
+
+Named functions are defined with `function` keyword and function name.
+
+>     function sum(a, b) {
+>       return a + b;
+>     }
+>
+>     sum(2, 3); // 5
+
+In the definition above we have:
+* `function` keyword
+* function name `sum`
+* function parameters between parantheses `(a, b)`
+* function body between curly braces `{ ... }`
+
+## Anonymous functions
+
+Anonymous functions are defined with `function` keyword but without a function name.
+Anonymous functions are usually assigned to a variable and can be invoked like a named function.
+
+>     var sum = function(a, b) {
+>       return a + b;
+>     }
+>
+>     sum(2, 3); // 5
+
+In the definition above we have:
+* `function` keyword
+* function parameters between parantheses `(a, b)`
+* function body between curly braces `{ ... }`
+
+## Arrow functions
+
+Arrow functions are anonymous functions defined without the `function` keyword but with an arrow operator `=>` between arguments and function body.
+
+>     var sum = (a, b) => {
+>       return a + b;
+>     }
+>
+>     sum(2, 3); // 5
+
+In the definition above we have:
+* function parameters between parantheses `(a, b)`
+* arrow operator `=>`
+* function body between curly braces `{ ... }`
+
+### Arrow functions with concise body
+If the arrow function body has only one instruction, `return`, then the curly braces and the `return` keyword can be ommited.
+
+>     var sum = (a, b) => a + b;
+>
+>     sum(2, 3); // 5
+
+In the definition above we have:
+* function parameters between parantheses `(a, b)`
+* arrow operator `=>`
+* return expression `a + b`
