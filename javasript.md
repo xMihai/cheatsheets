@@ -82,6 +82,8 @@ In the definition above we have:
 * function parameters between parantheses `(a, b)`
 * function body between curly braces `{ ... }`
 
+We invoke the function by writing the name of the function followed by parantheses and passing arguments inside the parantheses.
+
 ## Anonymous functions
 
 Anonymous functions are defined with `function` keyword but without a function name.
@@ -98,6 +100,8 @@ In the definition above we have:
 * function parameters between parantheses `(a, b)`
 * function body between curly braces `{ ... }`
 
+We invoke the function by writing the name of the variable holding the anonymous function, followed by parantheses and passing arguments inside the parantheses.
+
 ## Arrow functions
 
 Arrow functions are anonymous functions defined without the `function` keyword but with an arrow operator `=>` between arguments and function body.
@@ -113,6 +117,8 @@ In the definition above we have:
 * arrow operator `=>`
 * function body between curly braces `{ ... }`
 
+We invoke the function by writing the name of the variable holding the anonymous function, followed by parantheses and passing arguments inside the parantheses.
+
 ### Arrow functions with concise body
 If the arrow function body has only one instruction, `return`, then the curly braces and the `return` keyword can be ommited.
 
@@ -124,6 +130,8 @@ In the definition above we have:
 * function parameters between parantheses `(a, b)`
 * arrow operator `=>`
 * return expression `a + b`
+
+We invoke the function by writing the name of the variable holding the anonymous function, followed by parantheses and passing arguments inside the parantheses.
 
 ## Methods
 A method is a function placed inside an object.
